@@ -1,5 +1,7 @@
-public class CommandeDetail
+namespace WAppAgroma.Models
 {
+    public class CommandeDetail
+    {
    
     public int Id { get; set; } // Identifiant unique du détail
 
@@ -11,6 +13,6 @@ public class CommandeDetail
 
     public decimal PrixUnitaire { get; set; } // Prix unitaire du produit
 
-    // Relation avec la commande (navigation property)
-    public Commande Commande { get; set; }
+    
+    }
 }

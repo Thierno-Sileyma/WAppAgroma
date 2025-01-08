@@ -1,9 +1,9 @@
 using Microsoft.Identity.Client;
 
-public class Commande
+
 namespace WAppAgroma.Models
 {  
-    public class commande
+    public class Commande
     {
         public int Id { get; set; }
 

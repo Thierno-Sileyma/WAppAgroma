@@ -1,6 +1,8 @@
 using WAppAgroma.Models;
-public class Produit
+namespace WAppAgroma.Models
 {
+    public class Produit
+    {
    
     public int Id { get; set; }
 
@@ -12,4 +14,5 @@ public class Produit
 
     public int Prix { get; set; }
 
+    }
 }

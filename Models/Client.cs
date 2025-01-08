@@ -1,5 +1,7 @@
 
- namespace WAppAgroma.Models
+using System.ComponentModel.DataAnnotations;
+
+namespace WAppAgroma.Models
  {
 
     public class Client
