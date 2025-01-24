@@ -16,8 +16,14 @@ namespace WAppAgroma.Controllers
 
         public ClientsController(AppDbContext context)
         {
+            if (context == null)
+            {
+                throw new ArgumentNullException(nameof(context), "AppDbContext n'est pas injecté correctement.");
+            }
+
             _context = context;
         }
+
 
         // GET: Clients
         public async Task<IActionResult> Index()
